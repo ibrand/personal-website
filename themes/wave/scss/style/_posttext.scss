@@ -1,0 +1,17 @@
+.post {
+    .date {
+        color: #9B9B9B;
+        font-size: 14px;
+        font-family: firasansbold;
+    }
+    ul,ol{
+      line-height: 1.5rem;
+      margin-left: 1.5rem;
+    }
+    ol{
+      list-style: decimal;
+    }
+    ul{
+      list-style: disc;
+    }
+}

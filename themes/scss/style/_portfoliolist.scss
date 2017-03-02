@@ -1,0 +1,13 @@
+.portfolio{
+  .portfolio_item{
+      background-size: cover !important;
+      // border: solid 1px gray;
+      a{
+        border: 0px;
+        color: rgba(212,212,212,0);
+        &:hover{
+          background: rgba(212,212,212,0);
+        }
+      }
+  }
+}
