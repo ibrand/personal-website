@@ -1,4 +1,13 @@
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
+baseurl = "http://ilonabrand.com"
 languageCode = "en-us"
-theme = "ib"
+theme = "wave"
+
+title = "Ilona Brand"
+MetaDataFormat = "toml"
+
+canonifyURLs = true
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+PygmentsCodeFences = true
+
