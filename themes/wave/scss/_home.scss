@@ -1,8 +1,12 @@
 // _home.scss
 
 .homepage {
+    a {
+        cursor: pointer;
+    }
+
     header a {
-        color: white;
+        color: $font-color;
     }
 
     .bg-wrapper {
@@ -16,16 +20,16 @@
     }
 
     #blurb {
-        // color: #44C0FF;
-        color: white;
+        color: $font-color;
         align-self: center;
         padding-left: 7%;
     }
 
     footer a {
-        color: white;
+        color: $font-color;
     }
 }
+
 @media all and (max-width:599px) {
     .home {
         background: url('../img/home/monkeyflip@0.2x.jpg') 65% 90%;
@@ -39,6 +43,7 @@
         }
     }
 }
+
 @media all and (min-width:600px) and (max-width:1000px) {
     #blurb {
         h1 {
@@ -47,6 +52,7 @@
         }
     }
 }
+
 @media all and (min-width:1001px) {
     #blurb {
         h1 {
