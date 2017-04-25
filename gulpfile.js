@@ -7,16 +7,16 @@ var gulp  = require('gulp'),
 
 // Create a default task and add the watch task to it
 gulp.task('default', function () {
-  gulp.watch('themes/wave/scss/**/*.scss', ['sass']);
+  gulp.watch('themes/curlew/scss/**/*.scss', ['sass']);
 });
 
 //////////////////////////////
 // SASS Task
 //////////////////////////////
 gulp.task('sass', function () {
-  return gulp.src('themes/wave/scss/**/*.scss')
+  return gulp.src('themes/curlew/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('themes/wave/static/css/'));
+    .pipe(gulp.dest('themes/curlew/static/css/'));
 });
 
-// return gutil.log('Gulp is running!')
+return gutil.log('Gulp is running!')

@@ -2,7 +2,7 @@
 date = "2017-01-01T14:00:25-05:00"
 title = "LumenEd Prototype Render"
 assets = "lumenEd"
-size = "lg"
+size = "std"
 +++
 
 This 3D render was used in LumenEd's final pitch deck to acquire funding from Oberlin College's LaunchU program to start their company.

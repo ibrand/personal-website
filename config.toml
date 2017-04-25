@@ -1,6 +1,6 @@
 baseurl = "http://ilonabrand.com"
 languageCode = "en-us"
-theme = "wave"
+theme = "curlew"
 
 title = "Ilona Brand"
 MetaDataFormat = "toml"
